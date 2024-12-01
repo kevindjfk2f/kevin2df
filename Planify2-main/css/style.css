@@ -1,0 +1,33 @@
+:root {
+    --primary-color: #4EA685;
+    --secondary-color: #57B894;
+    --white: #ffffff;
+    --black: #000000;
+    --gray: #efefef;
+    --gray-2: #757575;
+  }
+  
+  body {
+    background-color: var(--primary-color);
+    color: var(--white);
+    transition: background-color 0.3s, color 0.3s; /* 부드러운 전환 효과 */
+  }
+  
+  button {
+    padding: 0.5rem 1rem;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    background-color: var(--secondary-color);
+    color: var(--white);
+  }
+  
+  body.dark {
+    --primary-color: #1a1a1a;
+    --secondary-color: #333333;
+    --white: #e0e0e0;
+    --black: #ffffff;
+    --gray: #1a1a1a;
+    --gray-2: #888888;
+  }
+  
